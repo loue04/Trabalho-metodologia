@@ -1,0 +1,45 @@
+#Formas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vh;
+
+}
+
+.section-tittle{
+    color: coral;
+    font-size: 2rem;
+}
+
+#dishes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.dish-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    gap: 18px;
+    width: 25%;
+    padding: 20px;
+    background-color: black;
+}
+
+.dish-description{
+    color: black;
+    text-align: center;
+}
+
+.dish-description {
+ color: black;
+ text-align: center;
+ font-size: 1rem;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
